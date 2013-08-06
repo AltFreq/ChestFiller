@@ -48,7 +48,6 @@ public class BabyEggsListener implements Listener {
 			}
 		}
 		if(e.getSpawnReason().equals(SpawnReason.SPAWNER_EGG)){
-			e.setCancelled(true);
 			EntityType type = e.getEntityType();
 			if(type.equals(EntityType.HORSE)){
 				Horse horse = (Horse)e.getEntity();
