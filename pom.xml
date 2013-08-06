@@ -4,12 +4,11 @@
 
 	<groupId>com.mcdimensions.babyeggs</groupId>
 	<artifactId>BabyEggs</artifactId>
-	<version>0.15-SNAPSHOT</version>
+	<version>1.0</version>
 	<packaging>jar</packaging>
 	<name>BabyEggs</name>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<build.number>0.77</build.number>
 	</properties>
 
 	<repositories>
@@ -17,10 +16,6 @@
             <id>bukkit-repo</id>
             <url>http://repo.bukkit.org/content/groups/public</url>
         </repository>
-		<repository>
-			<id>vault-repo</id>
-			<url>http://ci.herocraftonline.com/plugin/repository/everything</url>
-		</repository>
 	</repositories>
 
 	<dependencies>

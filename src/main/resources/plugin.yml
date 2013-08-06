@@ -1,6 +1,6 @@
 name: BabyEggs
 main : com.minecraftdimensions.babyeggs.BabyEggs
-version: 1
+version: 1.0
 description: Spawns an egg instead of a baby mob
 author: Bloodsplat
 website: http://www.spigotmc.org/resources/bungeesuite.9/
