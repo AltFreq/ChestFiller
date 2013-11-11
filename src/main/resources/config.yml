@@ -1,0 +1,28 @@
+###########################################
+#               ChestRefil                #
+#                 Config                  #
+###########################################
+
+#Refil all emptied chests this many seconds after the match has started
+refil-timer: 300
+
+
+#Here are your chest types
+#Chest-groups
+#   Food Crate is the display name of the chest
+#chance is the relative % that each chest has of being a chest of that type
+#For example if you have two chest types one with chance: 10 and the other with chance: 10 then each would have 50%
+#If you had a chest type with chance: 5 and a chest with chance: 10 then the first would only have 33% while the other chest 66%
+#min-items is the minimum amount of items that can be placed in this chest type
+chest-groups:
+    Food Crate:
+        chance: 10
+        min-items: 2
+        max-items: 5
+        items:
+        - RAW_FISH,1,10,FISHNAME
+    Supply Crate:
+        chance: 10
+        min-items: 2
+        max-items: 5
+        
